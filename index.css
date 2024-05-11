@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.box1{
+    height:100%;
+    width: 100%;
+    background-image: url("back.jpg");
+    
+
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box1 h1{
+    font-size: 40rem;
+    font-weight:900;
+    text-transform: uppercase;
+    mix-blend-mode:overlay;
+    
+    
+}
+.box2 h1{
+    font-size: 40vw;
+    text-transform: uppercase;
+    color: white;
+    mix-blend-mode: screen;
+   
+    
+}
+
+
+.box2{
+    height:100% ;
+    width: 100%;
+    background-color: black;
+  
+}
+.box3{
+    height:100% ;
+    width: 100%;
+
+    
+    background-image: url("backg.jpg");
+    background-size: cover;
+    object-fit: cover;
+   
+    
+    
+    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+     
+     
+     height: 10%;
+     width: 100%;
+     font-family: "Ubuntu", sans-serif;
+     padding: 30px 80px;
+     backdrop-filter: blur(10px);
+     
+
+}
+.main{
+    color:white;
+    padding: 3% 19%;
+    font-size: 3rem;
+}
+.main h1{
+    text-transform: uppercase;
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  mix-blend-mode:difference;
+
+
+    
+    
+}
+.point{
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+
+.hov ul li a{
+
+
+    text-decoration: none;
+    
+    padding: 60px;
+    font-size: 4rem;
+    color: black;
+    
+
+}
+.nam{
+    font-size: 2rem;
+    color: white;
+    
+}
+.hov{
+    margin-top: 4%;
+    background-color: aliceblue;
+    height: 70vh;
+    width: 30%;
+    
+    
+}
+
+.box4{
+    height:100% ;
+    width: 100%;
+    background-color: rebeccapurple;
+  
+}
